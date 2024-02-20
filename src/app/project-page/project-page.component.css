@@ -1,0 +1,168 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+ 
+.img{
+  margin-top: -200px;
+  margin-left: 1800px;
+  width: 200px;
+ 
+}
+#addSkill{
+  align-items: center;
+  margin-left: 500px;
+  padding-top: 100px;
+  margin-top: -29px;
+}
+#addSkill1{
+  align-items: center;
+  margin-left: 400px;
+  padding: 10px;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content:space-between;
+}
+#addSkill button{
+  margin-left: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border: 2px;
+  box-shadow: 0 0 2px 2px black;
+}
+#addSkill input{
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px black;
+  border: 2px;
+  width: 60%;
+}
+.buttons{
+  margin-left: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 15, 15);
+    color: rgb(22, 20, 20);
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+ 
+  .logout-btn button {
+    background-color: #2fd394;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .logout-btn button:hover {
+    background-color: #13a16b;
+  }
+  .card{
+    
+    margin-top:200px ;
+  }
+  .card-body{
+  
+    height: 330px;
+  }
+  .card-text{
+    margin:10px;
+    padding: 10px;
+  }
+  .card-title{
+    margin-bottom: 30px;
+  }
+#nav{
+  width: 70px;
+  position: relative;
+  height:1073px;
+  color: black;
+  
+  
+
+} 
+#header{
+margin-top:-1000px;
+margin-left: 150px;
+font-size: 35px;
+}
+#usericon{
+  margin-bottom: 50px;
+  padding: 10px;
+  color: rgb(248, 242, 242);
+}
+#usericon:hover{
+  color: #2fd394;
+}
+
+#x{
+  margin-left: 300px;
+  size: 100px;
+}
+.head{
+  font-size: large;
+}
+#skillsTable{
+  margin-left: 150px;
+  width: 1850px;
+}
+#skillsTable th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: #43d3b4;
+  }
+.up{
+    padding:10px;
+    margin: 20px;
+  }
+/* Style table rows */
+/* Style table rows */
+#skillsTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style alternate rows */
+  #skillsTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style table data cells */
+  #skillsTable td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Highlight the row on hover */
+  #skillsTable tbody tr:hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+  }
+.divmain{
+  width:1990px;
+}
+#x{
+  margin-left: 20px;
+}
+#check{
+  margin-left: 50px;
+}
